@@ -68,5 +68,6 @@ stages:
               ScriptType: 'Inline Script'
               InlineScript: |
                 npm install
+                npm install acorn
                 npm install --save firebase
                 npm run build --if-present
